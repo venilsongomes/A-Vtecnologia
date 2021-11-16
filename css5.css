@@ -1,43 +1,180 @@
-body {
-    padding:0;
-    margin: 0;
-    background-color:#BFBFC7;
+body{
+    background-color: #ffff;
+    border:1px solid blue;
+   
+}
+.div-left{
+    float:left;
+   padding-left:10px; 
+   height: auto;
+}
+.div-right{
+    float:right;
+    padding-right:10px;
+}
+.conteiner{
+    height: 150px;
+    padding-top:5px;
+    width: auto;
+}.copy{
+    font-style: italic;
+    height: 50px;
+    text-align: center;
+    color: #A3C9D9;
+    background-color:#0F2026 ;
 }
 footer{
+text-align: center;
+color: red;
+width: auto;
+float:none;
+}
+.corpo{
+    background-color: #ffff;
+    height: auto;
+  
+    
+   
+}
+.corpo1{
+
+    width: 900px;
+    background-color:rgb(125, 216, 216);
+    height: 1500px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid blue;
+
+    
+}
+h3{
+text-align:left;
+
+}
+h1{
+    text-decoration: saddlebrown;
+}
+
+
+.redes{
+ 
+    background-color:#E8E9F3;
+   height: auto;
+   border:1px solid rgb(125, 216, 216);
+   text-align:center;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conteudo{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 70vh;
+}
+.conteudo .slider{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500%;
+    height: 100%;
+    float: left;
+    animation: anima 10s linear infinite ;
+}
+.conteudo .slider .slide{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.conteudo .slider .slide .captura {
+    position:absolute;
+    bottom:  60px;
+    left: 60px;
+    right: 60px;
+    padding: 30px;
+    background-color:transparent;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+}
+.conteudo .slider .slide .captura h2{
+margin: 0;
+padding: 0;
+color: #ffff;
+font-size: 18px;
+transition: 0.5s;
+
+}
+.conteudo .slider .slide .captura p{
+    margin: 0;
+    padding: 0;
+    color:rgb(82, 9, 252);
+    font-size: 18px;
+    transition: 0.5s;
+    
+    }
+.conteudo .slider .slide.slide1{
+    background:url('img1.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.conteudo .slider .slide.slide2{
+    background:url('img2.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.conteudo .slider .slide.slide3{
+    background:url('img3.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.conteudo .slider .slide.slide4{
+    background:url('img4.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes anima{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+50%{
+    left: -200%;
+}   
+70%{
+    left: -200%;
+}
+75%{
+    left: -300%;
+}
+95%{
+    left:-300%;
+}
+100%{
+    left:-400%;
+}
+}
+
+.redes{
+ 
+    background-color:#02779E;
+    height: 200px;
+    text-align:center;
+  
+    
+}.rede{
     text-align: center;
-    color: #F29580;
-    font-style: italic;
-
 }
-#home{
-    width: auto;
-    text-align: right;
-}
-#logo{
-    width:auto;
-text-align: left;
-}
-
-#h3{
-color:#4E2559;
-
-    }
-#titulo{
-    background-color:#d8c5de;
-height: 120px;
-
-    }
-            
-            #footer{
-                height: 50px;
-                width: auto;
-                    background-color: #141726;
-                    
-                    
-                        }
-                        #corpo{
-                            width: auto;
-                            background-color:#34BF98;
-                            height:500px;
-                        }
-            
